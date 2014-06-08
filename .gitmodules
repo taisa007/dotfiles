@@ -1,0 +1,12 @@
+[submodule "emacs.d/public_repos/emacs-color-theme-solarized"]
+	path = emacs.d/public_repos/emacs-color-theme-solarized
+	url = https://github.com/sellout/emacs-color-theme-solarized.git
+[submodule "zsh/vendor/zaw"]
+	path = zsh/vendor/zaw
+	url = https://github.com/zsh-users/zaw.git
+[submodule "zsh/maximum-awesome"]
+	path = zsh/maximum-awesome
+	url = https://github.com/square/maximum-awesome.git
+[submodule "zsh/vendor/auto-fu.zsh"]
+	path = zsh/vendor/auto-fu.zsh
+	url = https://github.com/hchbaw/auto-fu.zsh.git
