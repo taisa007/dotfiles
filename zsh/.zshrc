@@ -74,6 +74,7 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
 # for git
+alias gl='git log'
 alias gc='git checkout'
 alias gb='git branch'
 alias gs='git status'
