@@ -74,9 +74,11 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
 # for git
+alias gc='git checkout'
 alias gb='git branch'
 alias gs='git status'
-alias gd='git diff --color --check'
+alias gd='git diff'
+alias gdc='git diff --color --check'
 alias gad='git add'
 alias gadd='git add'
 alias gcmi='git commit'
