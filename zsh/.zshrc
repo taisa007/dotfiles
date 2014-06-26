@@ -87,6 +87,7 @@ alias gcmi='git commit'
 alias gcma='git commit -a'
 alias gcmia='git commit -a'
 alias gpu='git pull'
+alias gpul='git pull'
 alias gpull='git pull'
 alias gf='git fetch --prune'
 alias gp='git push'
@@ -95,6 +96,7 @@ alias gpusho='git push -u origin'
 alias gpo='git push -u origin'
 alias gt='git tag'
 alias gm='git merge'
+alias gr='git rebase'
 
 source ~/dotfiles/zsh/.zshenv
 #source ~/dotfiles/.zsh/.zsh-zaw
