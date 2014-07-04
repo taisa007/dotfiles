@@ -97,6 +97,7 @@ alias gpo='git push -u origin'
 alias gt='git tag'
 alias gm='git merge'
 alias gr='git rebase'
+alias gsh='git stash'
 
 source ~/dotfiles/zsh/.zshenv
 #source ~/dotfiles/.zsh/.zsh-zaw
