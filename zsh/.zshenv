@@ -12,6 +12,7 @@ export PYTHON_PATH=/usr/local/Cellar/python/2.7.6/bin
 export PGDATA=/usr/local/var/postgres
 export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
+export BRVG=~/vagrant/aa-vagrant-centos65-01/vagrant
 
 # パスの設定
 ## 重複したパスを登録しない。
