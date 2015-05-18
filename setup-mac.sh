@@ -14,6 +14,9 @@ brew cask install firefox
 brew cask install karabiner
 brew cask install skitch
 brew cask install virtualbox
+brew cask install sequel-pro
 
 
 brew install vim
+
+sudo nvram SystemAudioVolume=%80
