@@ -53,6 +53,9 @@ brew install plenv perl-build
 #echo 'eval "$(plenv init -)"' >> ~/.zprofile
 plenv install 5.21.10
 
+sudo pip install --upgrade pip
+pip install virtualenv
+
 # setup-zsh
 ./setup-zsh.sh
 
