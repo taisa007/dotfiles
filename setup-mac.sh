@@ -16,6 +16,8 @@ brew install caskroom/cask/brew-cask
 # ex) brew cask search google
 brew cask install google-chrome
 brew cask install atom
+# atom plugin
+# apm install vim-mode
 brew cask install firefox
 brew cask install karabiner
 brew cask install skitch
