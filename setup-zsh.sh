@@ -7,4 +7,4 @@ fi
 
 ln -s ~/dotfiles/zsh/.zshenv ~/.zshenv
 
-source ~/.zshenv && source ~/.zshrc
+source ~/.zprofile && source ~/.zshrc

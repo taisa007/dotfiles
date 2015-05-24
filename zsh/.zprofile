@@ -1,4 +1,8 @@
 # -*- sh -*-
+eval "$(rbenv init -)"
+eval "$(pyenv init -)"
+eval "$(plenv init -)"
+
 # for git
 alias gl='git log'
 alias gc='git checkout'
