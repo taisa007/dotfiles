@@ -9,11 +9,6 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 brew doctor
 brew update
 
-# oh-my-zsh
-curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
-
-ln -s zsh/.zprofile ~/.
-
 # brew cask install
 brew install caskroom/cask/brew-cask
 
@@ -56,3 +51,5 @@ brew install plenv perl-build
 #echo 'eval "$(plenv init -)"' >> ~/.zprofile
 plenv install 5.21.10
 
+# setup-zsh
+./setup-zsh.sh
