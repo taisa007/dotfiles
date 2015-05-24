@@ -53,3 +53,6 @@ plenv install 5.21.10
 
 # setup-zsh
 ./setup-zsh.sh
+
+# setup-git
+./setup-git.sh
