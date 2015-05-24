@@ -56,3 +56,6 @@ plenv install 5.21.10
 
 # setup-git
 ./setup-git.sh
+
+# setup-karabiner
+./setup-karabiner.sh
