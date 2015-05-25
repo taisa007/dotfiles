@@ -24,6 +24,7 @@ brew cask install skitch
 brew cask install virtualbox
 brew cask install sequel-pro
 brew cask install mysqlworkbench
+brew cask install sourcetree
 
 # brew install
 brew install vim
