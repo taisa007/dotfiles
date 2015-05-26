@@ -31,6 +31,7 @@ brew install vim
 
 # 起動音OFF
 sudo nvram SystemAudioVolume=%80
+defaults write com.apple.screencapture location ~/Pictures/capture
 
 ./mac-env.sh
 
