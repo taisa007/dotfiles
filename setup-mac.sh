@@ -28,6 +28,8 @@ brew cask install sourcetree
 
 # brew install
 brew install vim
+brew install git 
+#sudo chown -R root /usr/local
 
 # 起動音OFF
 sudo nvram SystemAudioVolume=%80

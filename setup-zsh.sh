@@ -8,6 +8,6 @@ then
     mkdir ~/dotfiles/org
 fi
 
-ln -s ~/dotfiles/zsh/.zprofile ~/.zprofile
+ln -s ~/dotfiles/zsh/.zshenv ~/.zshenv
 
-source ~/.zprofile && source ~/.zshrc
+source ~/.zshenv && source ~/.zshrc
