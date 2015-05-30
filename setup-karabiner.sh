@@ -7,6 +7,6 @@ if ! pgrep -q Karabiner; then
   open -a Karabiner.app
 fi
 
-# /Applications/Karabiner.app/Contents/Library/bin/karabiner export > karabiner.sh
+# /Applications/Karabiner.app/Contents/Library/bin/karabiner export > karabiner/karabiner.sh
 # を事前にしておく
 source karabiner/karabiner.sh
