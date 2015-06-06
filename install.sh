@@ -3,6 +3,7 @@
 for f in .??*
 do
     [[ "$f" == ".git" ]] && continue
+    [[ "$f" == ".gitalias" ]] && continue
     [[ "$f" == ".DS_Store" ]] && continue
 
     #echo "$f"
@@ -10,7 +11,7 @@ do
     source ~/"$f"
 done
 
-echo ~/.gitalias >> ~/.zshrc
+echo ~/dotfiles/.gitalias >> ~/.zshrc
 
 # mkdir ~/.vim/colors
 # git clone https://github.com/tomasr/molokai
