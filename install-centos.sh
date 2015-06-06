@@ -1,5 +1,7 @@
 #!/bin/bash
 
+wget http://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | sh
+
 for f in .??*
 do
     [[ "$f" == ".git" ]] && continue
