@@ -6,3 +6,5 @@ set autoindent
 set nu
 set expandtab
 set shiftwidth=4
+inoremap <expr> <C-a>
+      \ search('^\s\s*\%#', 'bcn') ? "\<C-o>0" : "\<C-o>^"
