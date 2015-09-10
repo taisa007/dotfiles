@@ -8,3 +8,6 @@ set expandtab
 set shiftwidth=4
 inoremap <expr> <C-a>
       \ search('^\s\s*\%#', 'bcn') ? "\<C-o>0" : "\<C-o>^"
+imap <C-e>  <End>
+imap <C-b>  <Left>
+imap <C-f>  <Right>

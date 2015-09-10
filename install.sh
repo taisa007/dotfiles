@@ -14,6 +14,6 @@ done
 echo ~/dotfiles/.gitalias >> ~/.zshrc
 
 mkdir ~/.vim/colors
-git clone https://github.com/tomasr/molokai
+git clone https://github.com/tomasr/molokai.git
 mv molokai/colors/molokai.vim ~/.vim/colors/
 source ~/.vimrc
