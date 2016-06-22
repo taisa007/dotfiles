@@ -1,10 +1,10 @@
 [user]
-        name = sato.masaki
-        email = g5.taisa007@gmail.com
+	name = Masaki Sato
+	email = g5.taisa007@gmail.com
 [core]
-        editor = vim
-        excludesfile = /Users/satoumasaki/.gitignore_global
-        autocrlf = input
+    editor = vim
+	excludesfile = /Users/satoumasaki/.gitignore_global
+    autocrlf = input
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
@@ -30,3 +30,11 @@
         for-each = for-each-ref --format='%(committerdate) %09 %(authorname) %09 %(refname) '
         logg = log --stat --decorate=short --pretty=format:'%C(yellow)%h %Cgreen%cr %Cblue%cn%Cred%d %Creset%s %C(cyan)%b'
         history = log --graph --date=short --decorate=short --pretty=format:'%C(yellow)%h %Cgreen%cd %Cblue%cn%Cred%d %Creset%s'
+[diff]
+	compactionHeuristic = true
+[pager]
+	log = diff-highlight | less
+	show = diff-highlight | less
+	diff = diff-highlight | less
+[interactive]
+	diffFilter = diff-highlight
